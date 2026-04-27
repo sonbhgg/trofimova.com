@@ -1,4 +1,14 @@
-<?php include '../includes/header.php'; ?>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" href="../logo.png" type="image/x-icon"> 
+</head>
+<body>
+    <?php include '../includes/header.php'; ?>
 <main>
     <h1>Контакты</h1>
     <form method="post">
@@ -9,4 +19,5 @@
     </form>
 </main>
 <?php include '../includes/footer.php'; ?>
-
+</body>
+</html>
