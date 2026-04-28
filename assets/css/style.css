@@ -1,4 +1,3 @@
-/* Базовые стили */
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +12,6 @@ body {
     min-height: 100vh;
 }
 
-/* Шапка и навигация */
 header {
     background: #333;
     color: #fff;
@@ -31,13 +29,11 @@ nav a {
     text-decoration: none;
 }
 
-/* Активная ссылка из динамического меню */
 nav a.active {
     font-weight: bold;
-    color: #ff6600;
+    color: #d93d95;
 }
 
-/* Основной контент */
 main {
     flex: 1;
     padding: 2rem;
@@ -46,7 +42,6 @@ main {
     width: 100%;
 }
 
-/* Подвал */
 footer {
     background: #333;
     color: #fff;
@@ -55,7 +50,6 @@ footer {
     margin-top: auto;
 }
 
-/* Форма */
 form {
     display: flex;
     flex-direction: column;
@@ -80,10 +74,9 @@ button {
 }
 
 button:hover {
-    background: #ff6600;
+    background: #d93d95;
 }
 
-/* Адаптивная верстка */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
